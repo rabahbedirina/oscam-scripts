@@ -10,3 +10,4 @@ while read label host port user password; do
 
 done <$clines
 #docker restart oscam
+service oscam restart
